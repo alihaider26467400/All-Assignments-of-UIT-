@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment_No_07_Forms</title>
+</head>
+<body>
+<form action="http://www.example.com/subscribe.php"> 
+<table align="center">
+	<tr><td width="180" align="left">Username:</td><td width="180"><input type="text" name="username"/></td></tr>
+	<tr><td width="180" align="left">Password:</td><td width="180"><input type="password" name="password" required="required" /></td></tr>
+	<tr><td width="180" align="left">Date of Birth:</td><td width="180"><input type="date" name="date_of_birth"/></td></tr>
+	<tr><td width="180" align="left">Web URL:</td><td width="180"><input type="url" name="website_url"/></td></tr>
+	<tr><td width="180" align="left">Address:</td><td width="180"><input type="text" name="address" placeholder="Enter Your Address"/></td></tr>
+	<tr><td width="180" align="left">City:</td><td width="180">
+		<select name="city" size="auto">
+		<option value="karachi" selected="selected">Karachi</option>
+		<option value="lahore">Lahore</option>
+		<option value="islamabad">Islamabad</option>
+		<option value="faisalabad">Faisalabad</option>
+		<option value="rawalpindi">Rawalpindi</option>
+		<option value="gujranwala">Gujranwala</option>
+		<option value="peshawar">Peshawar</option>
+		<option value="quetta">Quetta</option>
+		<option value="rahim_yar_khan">Rahim Yar Khan</option>
+		<option value="hyderabad">Hyderabad</option>
+		</select> </td></tr>
+		<tr><td width="180" align="left">State:</td><td width="180"><input type="text" name="state"/></td></tr>
+		<tr><td width="180" align="left">Zip:</td><td width="180"><input type="text" name="zip"/></td></tr>
+		
+		<tr><td width="180" align="left">Magazine:</td><td width="180">
+		<select name="magazine" multiple="multiple" size="4">
+		<option value="newsweek">NewSweek</option>
+		<option value="time">Time</option>
+		<option value="fortune">Fortune</option>
+		<option value="tv_guide">TV Guide</option>
+        </select> </td></tr>
+       
+        <tr><td width="180" align="left" colspan="2">
+        <fieldset> 
+        	<legend>Contact details</legend>
+        	<label>Email:</label><br /> 
+        	<input type="text" name="email" /><br />
+        	<label>Mobile:</label><br />
+        	<input type="text" name="mobile" /><br /> 
+        	<label>Telephone:</label><br /> 
+        	<input type="text" name="telephone" />
+        </fieldset></td></tr>
+        <tr><td width="180" align="left">Additional Comments:</td></tr>
+        <tr><td width="180" align="left" colspan="2"><textarea cols="40" rows="6" name="comments" placeholder="Enter Your Comments Here....."></textarea></td></tr>
+        <tr><td width="190" align="left">Upload Your Profile Picture:</td><td width="180"><input type="file" name="picture"/></td></tr>
+<tr><td><br><input type="button" name="order" value="Send Your Order"/><br><br><br><br></td></tr>
+<tr><td colspan="2">Email Address:<input type="email" name="email_address"></td></tr>
+<tr><td colspan="2">Subscription:
+	<input type="radio" name="subscribe" value="1st_year" checked="checked"><label>1st Year</label> 
+	<input type="radio" name="subscribe" value="2nd_year"><label>2nd Year</label>
+</td></tr>
+<tr><td colspan="2"><input type="checkbox">Yes! Put me on the list!</td></tr>
+<tr><td><input type="image" src="Subscribe_button.jpg" height="80" width="120"></td></tr>
+</table>
+</form>
+
+</body>
+</html>
